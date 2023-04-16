@@ -1,0 +1,36 @@
+#contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(0, 0, 0);
+  padding: 5rem;
+  align-items: center;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.contatos a {
+  color: white;
+}
+
+.contato .disponibilidade {
+  color: #757070;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  max-width: 35ch;
+}
+
+.contato p {
+  color: #757070;
+}
+
+.direitos {
+  margin-top: 3rem;
+  align-items: end;
+}

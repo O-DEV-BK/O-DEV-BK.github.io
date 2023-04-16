@@ -1,0 +1,36 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./experiencia.css);
+@import url(./formacao.css);
+@import url(./responsivo.css);
+@import url(./contato.css);
+
+body {
+  margin: 0px;
+  font-family: "fira sans", arial;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li {
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}

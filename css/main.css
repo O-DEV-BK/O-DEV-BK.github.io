@@ -1,0 +1,62 @@
+main {
+  display: flex;
+  padding: 3rem;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
+
+.artigo-texto {
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+  font-size: 6rem;
+  grid-column: 2/2;
+}
+
+
+
+.local {
+  font-size: 2rem;
+  grid-column: 2/2;
+  text-align: center;
+}
+
+main h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(/icone-de-fumaca-de-cigarro-by_vexels.svg);
+  width: 15rem;
+  height: 15rem;
+  margin-left: -6rem;
+  z-index: -1;
+}
+
+.gorilla {
+  display: flex;
+  height: 30rem;
+}
+
+.gorilla  {
+  position: relative;
+  animation-name: moveUpDown;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Definir a animação */
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}

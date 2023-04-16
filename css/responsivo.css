@@ -1,0 +1,82 @@
+@media (max-width: 1300px) {
+  .formacao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4rem;
+  }
+
+  .logo {
+    justify-self: center;
+  }
+
+  .header-menu {
+    justify-content: center;
+  }
+
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: start;
+  }
+
+  .gorilla {
+    display: none;
+  }
+
+  main h1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    width: 5rem;
+    background-image: none;
+    margin-left: 0rem;
+    background: linear-gradient(#1e5568, #0427c4);
+    border-radius: 4px;
+  }
+
+  #experiencia {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+  }
+
+  .experiencia-texto {
+    text-align: start;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 3rem 5rem;
+  }
+  .empresa-ano {
+    display: none;
+  }
+
+  .subtitulo {
+    justify-content: center;
+    font-size: 7rem;
+  }
+
+  .formacao {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+
+  #contato {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
+  .disponibilidade {
+    margin-bottom: 2rem;
+  }
+}

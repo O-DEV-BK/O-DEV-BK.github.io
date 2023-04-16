@@ -1,0 +1,79 @@
+@import url(./experiencia.css);
+
+.formacao {
+  /* max-width: 1200px; */
+  padding: 70px 50px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  background-color: rgb(19, 18, 18);
+}
+
+.formacoes {
+  gap: 2rem;
+}
+
+.formacao .subtitulo {
+  color: black;
+  min-width: 5ch;
+}
+
+.escolaridade {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 10rem;
+  width: 13rem;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  position: relative;
+}
+
+.escolaridade span {
+  color: #757070;
+  max-width: 100%;
+  max-height: 40%;
+}
+
+.escolaridade p {
+  color: #757070;
+  text-align: start;
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+}
+
+.formacao .experiencia-texto strong {
+  color: white;
+}
+
+.certificacoes {
+  display: flex;
+  font-size: 5rem;
+  color: #757070;
+  align-content: center;
+  margin: 20px 0px;
+}
+.horas{
+  right: 0;
+}
+
+.cursos {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.formacao .empresa-nome::before {
+  content: '';
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 5px;
+  background: linear-gradient(#ffffff, #372c5559);
+  left: -21px;
+  top: -5px;
+  justify-content: start;
+}
